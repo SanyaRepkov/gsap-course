@@ -5,7 +5,7 @@ let servise1 = prompt('Какой сервис нужен?')
 let servicePrice1 = +prompt('Сколько это будет стоить?')
 let service2 = prompt('Какой еще сервис тебе нужен?')
 let servicePrice2 = +prompt('Сколько будет стоить этот второй сервис?')
-let fullPrice =  screenPrice + servicePrice1 + +servicePrice2
+let fullPrice =  screenPrice + servicePrice1 + servicePrice2
 console.log(fullPrice)
 let servicePercentPrice = fullPrice - (fullPrice * 0.15);
 servicePercentPrice = Math.round(servicePercentPrice);
