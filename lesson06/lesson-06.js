@@ -4,7 +4,7 @@ const gameBotFunction = function () {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }  
 
-  let randomNuber = randomGenerate(0,5);
+  let randomNuber = randomGenerate(0,100);
   let userGuess;
   let attempts = 3;
 
